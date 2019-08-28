@@ -26,7 +26,6 @@ function get_server_cpu_usage(){
 echo "Pod Name: ";
 echo php_uname('n');
 echo "  - - - Hello All. This is a  test, simple webhook demo. Enjoy! ";
-echo <br>;
 echo $proc;
 echo <br><br>;
 <p><span class="description">Server Memory Usage:</span> <span class="result">= get_server_memory_usage() ?&gt;%</span></p>;
