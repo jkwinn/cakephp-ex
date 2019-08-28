@@ -1,7 +1,7 @@
 <?php
 $load = sys_getloadavg();
 $proc = exec('nproc');
-$normload = $load/$proc;
+$normload = $load / $proc;
 $x = 0.0001;
 for ($i = 0; $i <= 1000000; $i++) {
 	$x += sqrt($x);
