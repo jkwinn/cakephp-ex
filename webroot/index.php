@@ -9,5 +9,5 @@ for ($i = 0; $i <= 1000000; $i++) {
 echo "Pod Name: ";
 echo php_uname('n');
 echo "  - - - Hello All. This is a  test, simple webhook demo. Enjoy! "
-echo normload
+echo sys_getloadavg
 ?>
